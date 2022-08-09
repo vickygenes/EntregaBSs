@@ -87,3 +87,36 @@ footer p {
     padding: 0 8px;
     color:#f3f3f3
 }
+
+.nav__ul{
+    justify-content: space-around;
+    font-size:larger;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    max-width: 100px;
+    margin:auto;   
+    height: 10%;
+    display: flex;
+}
+.nav__li{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 40px;
+    display:inline-block;
+    text-align: center;
+    display: flex;
+}
+
+.nav__li a:hover{
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: rgba(18, 43, 2, 0.578);
+    background-color: rgb(172, 170, 170);
+    border-radius: 3px;
+    padding:10px ;
+    display: flex;
+}
